@@ -1,0 +1,27 @@
+body {
+ background: rgb(255, 255, 255);
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icon,
+h5 {
+  color: green;
+}
+
+.links a:hover,
+.icon:hover {
+  background-color: green;
+  color: white;
+  transition: 0.4s all linear;
+}
+.links nav flex-column d-none {
+    font-size: 30px;
+}
