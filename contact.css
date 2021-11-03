@@ -1,27 +1,51 @@
 body {
- background: rgb(255, 255, 255);
+  background: #f0d6d6;
+  padding-top: 5%;
 }
-.logo {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.main-container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.icon,
-h5 {
-  color: green;
+.contact-container {
+  display: flex;
+  
+
 }
 
-.links a:hover,
-.icon:hover {
-  background-color: green;
-  color: white;
-  transition: 0.4s all linear;
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
 }
-.links nav flex-column d-none {
-    font-size: 30px;
+
+
+input[type=submit] {
+  background-color: #64010a;
+  color: white;
+  padding: 12px 20px; 
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #ee82bf;
+}
+
+.contact-container {
+  border-radius: 5px;
+  background-color: #f0d6d6;
+  padding: 20px;
+}
+@media (max-width: 800px) {
+.bottom-container {
+flex-direction: column;
+
+
+
+
+}
 }

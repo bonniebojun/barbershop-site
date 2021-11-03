@@ -74,7 +74,7 @@ body {
    width: 20px;
    margin: 20px;
    width: 300px;
-   color: rgb(0, 0, 0);
+   color:#d30cd1;
    
    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
  
@@ -118,6 +118,11 @@ body {
  .image-container {
    display: flex;
    justify-content: center;
+
+ }
+.fakeimg {
+
+   width: 300px;
 
  }
  footer {

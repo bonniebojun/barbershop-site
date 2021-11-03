@@ -23,7 +23,11 @@ body {
   
     
   }
-  
+  .fakeimg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
   .topnav a{
     flex-direction: right;
     color: #ffffff;
