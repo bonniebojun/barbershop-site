@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="contact.css">
   <script src="main.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -19,60 +19,58 @@
 
   <title>Foxy Hair Studio</title>
 </head>
+
 <body>
-  <br>
- <header>
-  <div id="header">
-    <a href="index.html" class="logo">
-      <img src="images/FoxyHairStudio.jpg" alt="">
-    </a>
-    
     <br>
-    
-  </div>
-  <div class="main-container">
-    <div class="topnav">
-        <a class="active" href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="gallery.html">GALLERY</a>
-        <a href="blog.html">BLOG</a>
-        <a href="contact.html">CONTACT</a>
+    <header>
+        <div id="header">
+          <a href="index.html" class="logo">
+            <img src="images/FoxyHairStudio.jpg" alt="">
+          </a>
+          
+          <br>
+          
+        </div>
+        <div class="main-container">
+          <div class="topnav">
+              <a class="active" href="index.html">HOME</a>
+              <a href="about.html">ABOUT</a>
+              <a href="gallery.html">GALLERY</a>
+              <a href="blog.html">BLOG</a>
+              <a href="contact.html">CONTACT</a>
+          </div>
+          <br>
+          
+      </div>
+         
+        </div>
+    <section class="contact-container">
+        <div class="contact-box">
+        <form action="results.html" method="GET" enctype="multipart/form-data">
+        <div>
+            <label for=" fname">First Name</label>
+            <input type="text" name="fname" id="firstname" placeholder="Your name...">
     </div>
-    <br>
-    
-</div>
+    <div>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Your last name...">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="Email goes here...">
+    </div>
    
-  </div>
-</header>
-<body>
-  <section class="contact-container">
-      <form action="results.html" method="GET" enctype="multipart/form-data'>
-      <div>
-          <label for=" fname">First Name</label>
-          <input type="text" name="fname" id="firstname" placeholder="Your name...">
-  </div>
-  <div>
-      <label for="lname">Last Name</label>
-      <input type="text" name="lastname" id="lastname" placeholder="Your last name...">
-  </div>
-  <div>
-      <label for="email">Email</label>
-      <input type="text" name="email" id="email" placeholder="Email goes here...">
-  </div>
-  <br>
-  <div>
 
-  <br>
-  <div>
-      <label for="subject">Subject</label><br>
-      <textarea id="subject name=" subject" placeholder="Write something here..." style="height: 100px"></textarea>
-      <input type="submit" value="submit" onclick="showInput();">
+       
+    
+    <div>
+        <label for="subject">Subject</label><br>
+        <textarea id="subject name=" subject" placeholder="Write something here..." style="height: 100px"></textarea>
+        <input type="submit" value="submit" onclick="showInput();">
 
-  </div>
+    </div></div>
+
 </section>
 </body>
 
-</html>
-</footer>
-</body>
 </html>
